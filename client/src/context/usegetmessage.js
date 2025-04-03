@@ -10,7 +10,7 @@ const usegetmessage = () => {
         setLoading(true);
         if(selectedconversation && selectedconversation._id){
           try {
-            const res = await axios.get(`http://localhost:3000/api/message/get/${selectedconversation._id}`,{
+            const res = await axios.get(`https://whatsapp-tanishq.onrender.com/api/message/get/${selectedconversation._id}`,{
               headers:{
                 Authorization:`bearer ${user?.token}`,
               }

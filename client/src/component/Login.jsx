@@ -17,7 +17,7 @@ const Login = () => {
     }
     const handlesubmit = async (e) => {
     e.preventDefault();
-    await axios.post('http://localhost:3000/api/auth/login',user).then((res)=>{
+    await axios.post('https://whatsapp-tanishq.onrender.com/api/auth/login',user).then((res)=>{
       if(res.data){
         alert('user login successfully')
       }

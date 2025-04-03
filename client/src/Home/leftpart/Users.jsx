@@ -8,7 +8,7 @@ const Users = () => {
   const user = JSON.parse(localStorage.getItem('userdata'));
 
   const getdata = async () => {
-    await axios.get('http://localhost:3000/api/auth/users',{
+    await axios.get('https://whatsapp-tanishq.onrender.com/api/auth/users',{
       headers:{
         Authorization:`bearer ${user?.token}`,
       }

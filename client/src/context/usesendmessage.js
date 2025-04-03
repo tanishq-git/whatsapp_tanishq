@@ -9,7 +9,7 @@ const usesendmessage = () => {
         setLoading(true);
           try {
             const res = await axios.post(
-                `http://localhost:3000/api/message/send/${selectedconversation._id}`, 
+                `https://whatsapp-tanishq.onrender.com/api/message/send/${selectedconversation._id}`, 
                 { message: mess }, 
                 {
                   headers: {

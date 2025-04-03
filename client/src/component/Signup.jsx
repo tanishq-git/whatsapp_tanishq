@@ -32,7 +32,7 @@ const Signup = () => {
     return alert('Password is not match')
   }
 
-  await axios.post('http://localhost:3000/api/auth/signup',user).then((res)=>{
+  await axios.post('https://whatsapp-tanishq.onrender.com/api/auth/signup',user).then((res)=>{
     if(res.data){
       alert('user register successfully')
     }
