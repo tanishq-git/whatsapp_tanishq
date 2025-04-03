@@ -9,7 +9,7 @@ const User = ({data}) => {
     <div onClick={()=>setselectedconversation(data)} className={`hover:bg-slate-600 duration-300 ${isselected?'bg-slate-700':""}`} >
       <div  className='flex w-full cursor-pointer hover:bg-slate-700 transition-all duration-300 hover:px-2 space-x-4 px-3 py-2  border-b-[1px] border-zinc-600 items-center'>
       <div className="avatar ">
-       <div className="w-15 rounded-full">
+       <div className="lg:w-15 w-23 rounded-full">
         {
           data.imageurl ? <>
           <img className='object-cover w-full h-full' src={`${data?.imageurl}`}/>

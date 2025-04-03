@@ -21,7 +21,7 @@ const Sendmessage = () => {
     <div className='h-[10%]  bg-[#0F172B]' >
     <div className='p-3 flex  justify-between space-x-3 items-center'>
     <div className='flex space-x-3 items-center'>
-      <form className='flex items-center w-80 bg-[#1D232A] rounded-md py-1 px-2' action="">
+      <form className='flex items-center lg:w-80 bg-[#1D232A] rounded-md py-1 px-2' action="">
      <input value={mess} onChange={(e)=>setMess(e.target.value)} type="text" placeholder='Type your message...' className='w-full h-7 outline-none border-none' />
      </form>
      <i onClick={(e)=>handlesubmit(e)} class="ri-send-plane-2-line text-2xl cursor-pointer"></i>

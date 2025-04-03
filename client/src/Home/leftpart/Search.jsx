@@ -3,7 +3,7 @@ import React from 'react'
 const Search = () => {
   return (
     <>
-    <h1 className='p-5 text-3xl '>ᴛᴀɴɪꜱʜq</h1>
+    <h1 className='p-5 lg:text-3xl'>ᴛᴀɴɪꜱʜq</h1>
     <div className='p-3'>
      <form className='flex items-center w-full bg-[#1D232A] rounded-md py-1 px-2' action="">
      <input type="text" placeholder='search' className='w-full outline-none border-none' />
